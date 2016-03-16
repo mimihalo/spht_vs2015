@@ -1,0 +1,64 @@
+﻿已經開始建置於 2016/3/16 上午 10:03:22。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\Fuyune\Desktop\spht\spht_vs2015\spht_normal\spht_normal.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\newspht_hsa.cpp
+         newspht_hsa.cpp
+     1>c:\users\fuyune\desktop\spht\gettime.h(14): warning C4244: '=': conversion from 'LONGLONG' to 'double', possible loss of data
+     1>c:\users\fuyune\desktop\spht\init_struct.h(40): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\init_struct.h(90): warning C4018: '>=': signed/unsigned mismatch
+     1>c:\users\fuyune\desktop\spht\init_struct.h(129): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(133): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(137): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(141): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(152): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(156): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(160): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(164): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+     1>c:\users\fuyune\desktop\spht\init_struct.h(78): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 11 has type 'unsigned __int64 *'
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%lld' in the format string
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%I64d' in the format string
+     1>c:\users\fuyune\desktop\spht\init_struct.h(78): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 12 has type 'unsigned __int64 *'
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%lld' in the format string
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%I64d' in the format string
+     1>c:\users\fuyune\desktop\spht\init_struct.h(78): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 13 has type 'unsigned __int64 *'
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%lld' in the format string
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%I64d' in the format string
+     1>c:\users\fuyune\desktop\spht\init_struct.h(78): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 14 has type 'unsigned __int64 *'
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%lld' in the format string
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%I64d' in the format string
+     1>c:\users\fuyune\desktop\spht\init_struct.h(78): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 25 has type 'unsigned char *'
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%hhd' in the format string
+     1>c:\users\fuyune\desktop\spht\init_struct.h(78): warning C4477: 'fscanf' : format string '%d' requires an argument of type 'int *', but variadic argument 32 has type 'unsigned char *'
+         c:\users\fuyune\desktop\spht\init_struct.h(78): note: consider using '%hhd' in the format string
+     1>c:\users\fuyune\desktop\spht\init_struct.h(65): warning C4101: 'destMAC': unreferenced local variable
+     1>c:\users\fuyune\desktop\spht\init_struct.h(66): warning C4101: 'sMAClen': unreferenced local variable
+     1>c:\users\fuyune\desktop\spht\init_struct.h(65): warning C4101: 'srcMAC': unreferenced local variable
+     1>c:\users\fuyune\desktop\spht\spht.h : warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+     1>c:\users\fuyune\desktop\spht\spht.h(80): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(81): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(83): warning C4244: 'argument': conversion from 'unsigned __int64' to 'unsigned int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(93): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(95): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(97): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(102): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\fuyune\desktop\spht\spht.h(115): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(117): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(119): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(135): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(142): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\fuyune\desktop\spht\spht.h(185): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(259): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\fuyune\desktop\spht\spht.h(270): warning C4018: '<=': signed/unsigned mismatch
+     1>c:\users\fuyune\desktop\spht\spht.h(342): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\fuyune\desktop\spht\spht.h(378): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(380): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(382): warning C4244: '+=': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\fuyune\desktop\spht\spht.h(387): warning C4244: '=': conversion from 'unsigned __int64' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Fuyune\Desktop\spht\spht_vs2015\Debug\spht_normal.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Fuyune\Desktop\spht\spht_vs2015\Debug\spht_normal.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Fuyune\Desktop\spht\spht_vs2015\Debug\spht_normal.lib" /MACHINE:X86 Debug\newspht_hsa.obj
+         spht_normal.vcxproj -> C:\Users\Fuyune\Desktop\spht\spht_vs2015\Debug\spht_normal.exe
+     1>專案 "C:\Users\Fuyune\Desktop\spht\spht_vs2015\spht_normal\spht_normal.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.56
